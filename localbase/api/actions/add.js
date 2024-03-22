@@ -1,4 +1,5 @@
-let UUID = require('ordered-uuid')
+import uuidPkg from 'ordered-uuid';
+const UUID = uuidPkg;
 import success from '../../api-utils/success'
 import error from '../../api-utils/error'
 import showUserErrors from '../../api-utils/showUserErrors'
